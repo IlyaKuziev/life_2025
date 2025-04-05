@@ -1,4 +1,4 @@
-# life_2025 - 04-04
+# life_2025 - 04-04- 05
 address public admin;
 uint256 public proposalCount;
 mapping(uint256 => Proposal) public proposals;
