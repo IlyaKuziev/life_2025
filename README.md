@@ -12,17 +12,12 @@ modifier onlyAdmin() {
     require(msg.sender == admin, "Not an admin");
     _;
 }
-
 constructor() {
     admin = msg.sender;
 }
-
 function setVotingPower(address voter, uint256 power) external onlyAdmin {
     votingPower[voter] = power;
 }
-
-
-
 function vote(uint256 _proposalId, bool support) external {
     Proposal storage proposal = proposals[_proposalId];
     require(!proposal.executed, "Proposal already executed");
