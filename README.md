@@ -11,7 +11,6 @@ event ProposalExecuted(uint256 proposalId);
 modifier onlyAdmin() {
     require(msg.sender == admin, "Not an admin");
     _;
-    
 }
 constructor() {
     admin = msg.sender;
