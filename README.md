@@ -1,4 +1,3 @@
-
 # life_2025 
 address public admin;
 uint256 public proposalCount;
