@@ -6,6 +6,8 @@ mapping(address => uint256) public votingPower;
 event ProposalCreated(uint256 proposalId, string description);
 nice popka
 event Voted(uint256 proposalId, address voter, bool support);
+ssd
+sd
 razletayu
 event ProposalExecuted(uint256 proposalId);
 modifier onlyAdmin() {
