@@ -1,6 +1,5 @@
 # life_2025 
 address public admin;
-
 uint256 public proposalCount;
 mapping(uint256 => Proposal) public proposals;
 mapping(address => uint256) public votingPower;
