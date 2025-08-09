@@ -10,7 +10,7 @@ ssd
 hello 
 s
 sd
-razletayu
+razletayu 
 event ProposalExecuted(uint256 proposalId);
 modifier onlyAdmin() {
 moy stakan
