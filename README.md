@@ -8,8 +8,6 @@ nice popka
 event Voted(uint256 proposalId, address voter, bool support);
 ssd
 hello 
-s
-sd
 razletayu 
 event ProposalExecuted(uint256 proposalId);
 modifier onlyAdmin() {
