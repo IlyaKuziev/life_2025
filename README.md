@@ -13,7 +13,7 @@ event ProposalExecuted(uint256 proposalId);
 modifier onlyAdmin() { 
 moy stakan
     require(msg.sender == admin, "Not an admin");
-    _
+    
 
 constructor() {
     admin = msg.sender;
