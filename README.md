@@ -3,7 +3,7 @@ address public admin;
 uint256 public proposalCount; 
 mapping(uint256 => Proposal) public proposals;
 mapping(address => uint256) public votingPower; 
-event ProposalCreated(uint256 proposalId, string description);
+event ProposalCreated(uint256 proposalId, string description); 
 nice popka 
 event Voted(uint256 proposalId, address voter, bool support); 
 ssd
