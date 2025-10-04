@@ -10,7 +10,7 @@ ssd
 hello 
 razletayu   
 event ProposalExecuted(uint256 proposalId);
-modifier onlyAdmin() {
+modifier onlyAdmin() { 
 moy stakan
     require(msg.sender == admin, "Not an admin");
 constructor() {
