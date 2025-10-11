@@ -1,7 +1,7 @@
 # life_2025 
 address public admin;
 uint256 public proposalCount; 
-mapping(uint256 => Proposal) public proposals; 
+mapping(uint256 => Proposal) public proposals;
 mapping(address => uint256) public votingPower; 
 event ProposalCreated(uint256 proposalId, string description);
 nice popka
