@@ -7,7 +7,7 @@ event ProposalCreated(uint256 proposalId, string description);
 nice popka
 event Voted(uint256 proposalId, address voter, bool support); 
 ssd 
-hello 
+hello
 razletayu
 event ProposalExecuted(uint256 proposalId); 
 modifier onlyAdmin() {
