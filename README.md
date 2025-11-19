@@ -10,7 +10,6 @@ event Voted(uint256 proposalId, address voter, bool support);
 
 
 
-
 ssd 
 hello  
 razletayu 
