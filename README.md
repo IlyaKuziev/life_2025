@@ -9,9 +9,6 @@ event Voted(uint256 proposalId, address voter, bool support);
 ssd  
 hello
 razletayu
-
-
-
 event ProposalExecuted(uint256 proposalId);
 modifier onlyAdmin() {
 moy stakan
